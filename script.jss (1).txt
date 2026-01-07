@@ -1,0 +1,14 @@
+// Sample dynamic dashboard data
+let quizzes = 5;
+let completed = 2;
+let lastScore = "8/10";
+
+// Display values on dashboard
+document.getElementById("quizCount").innerText = quizzes;
+document.getElementById("completedCount").innerText = completed;
+document.getElementById("lastScore").innerText = lastScore;
+
+// Button click functionality
+document.getElementById("startBtn").addEventListener("click", () => {
+    alert("Quiz Starting...");
+});
